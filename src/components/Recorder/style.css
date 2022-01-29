@@ -1,0 +1,71 @@
+main button {
+    align-self: center;
+    background-color: unset;
+    font-weight: 900;
+    font-size: 45px;
+    padding: 10px 15px 3px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+main button.record-play {
+    color: red;
+}
+
+main button.play-pause {
+    color: white;
+}
+
+main button.record-play.recording-audio {
+    background-color: tomato;
+    border-color: rgb(206, 74, 51);
+    color: white;
+}
+
+.main-app {
+    height: 400px;
+}
+
+.main-app .centered-items {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.screen {
+    border: 8px groove rgba(70,71,86,0.7);
+    border-radius: 10px;
+    background: #444444;
+    background: -moz-linear-gradient(-45deg, #444444 0%, #656565 48%, #444444 100%);
+    background: -webkit-linear-gradient(-45deg, #444444 0%, #656565 48%, #444444 100%);
+    background: linear-gradient(135deg, #444444 0%, #656565 48%, #444444 100%);
+    max-width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    overflow-y: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #23242D; 
+    border-radius: 10px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+}
+  

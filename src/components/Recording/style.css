@@ -1,0 +1,84 @@
+article {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2fr;
+  row-gap: 0.5rem;
+  width: 100%;
+  margin: 1.25rem 0;
+  position: relative;
+}
+  
+article audio {
+  grid-column: 1 / span 2;
+  height: 2rem;
+  width: 100%;
+}
+  
+article button.delete {
+  height: 1.5rem;
+  vertical-align: middle;
+}
+  
+article .item-name {
+  width: 175px;
+}
+  
+article button.editName {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+article.is-selected {
+  background: rgba(1,1,1,0.2);
+}
+
+article .name {
+  font-weight: bold;
+}
+
+.displayed-items {
+  display: flex;
+  cursor: pointer;
+}
+
+.displayed-items .icon-box {
+  min-width: 30px;
+  padding: 0 7px;
+  font-size: 20px;
+}
+
+.displayed-items .icon-box.edit {
+  position: absolute;
+  right: 40px;
+}
+
+.displayed-items .icon-box.delete {
+  position: absolute;
+  right: 0;
+}
+
+.vanish {
+  animation: vanish 1s 1;
+}
+
+@keyframes vanish {
+  0% {
+    opacity: 1;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Sound Recorder title 1`] = `
+Array [
+  <header>
+    <h1
+      className="green-element"
+    >
+      Sound Recorder
+    </h1>
+  </header>,
+  <main>
+    <button
+      className="record-play"
+    >
+      Loading…
+    </button>
+  </main>,
+]
+`;

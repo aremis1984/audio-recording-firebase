@@ -1,0 +1,31 @@
+div#root {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2F303A;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+#root .green-element {
+  color: #0ED0BF;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
